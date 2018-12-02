@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/slika"
+        android:layout_width="127dp"
+        android:layout_height="138dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/book"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/eDatumObjavljivanja"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/slika"
+        android:layout_marginLeft="127dp"
+        android:text=""
+        android:layout_alignParentRight="true"
+        tools:ignore="RtlCompat"/>
+
+    <TextView
+        android:id="@+id/eBrojStranica"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/eDatumObjavljivanja"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/eDatumObjavljivanja"
+        android:layout_marginTop="49dp"
+        android:text=""
+        tools:ignore="RtlCompat"/>
+
+    <TextView
+        android:id="@+id/eOpis"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/eDatumObjavljivanja"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/eDatumObjavljivanja"
+        android:layout_marginTop="78dp"
+        android:text=""
+        tools:ignore="RtlCompat"/>
+
+    <Button
+        android:id="@+id/dPreporuci"
+        android:layout_width="123dp"
+        android:layout_height="42dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="105dp"
+        android:background="#e636ac"
+        android:text="Dodaj knjigu"
+        tools:ignore="RtlCompat" />
+</RelativeLayout>

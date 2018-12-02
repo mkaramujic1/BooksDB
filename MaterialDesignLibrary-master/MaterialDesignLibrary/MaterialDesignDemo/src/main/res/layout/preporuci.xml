@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/listaFragment"
+            android:layout_width="match_parent"
+            android:layout_height="287dp"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="4dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="361dp"
+            android:layout_height="41dp"
+            android:layout_above="@+id/sKontakti"
+            android:layout_alignParentEnd="true"
+            android:text="PRONAĐI KONTAKT:"
+            tools:ignore="RtlCompat" />
+        <Spinner
+            android:id="@+id/sKontakti"
+            android:layout_width="353dp"
+            android:layout_height="51dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="110dp" />
+
+        <Button
+            android:id="@+id/dPosalji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="52dp"
+            android:text="POŠALJI" />
+    </RelativeLayout>
+</LinearLayout>
